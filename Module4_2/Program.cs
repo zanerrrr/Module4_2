@@ -16,15 +16,12 @@ namespace Module4_2
             Console.WriteLine($"The Area of your Circle is {Circle(rad)}");
             Console.WriteLine("------------------------------------------------------");
             double side1;
-            double side2;
             double area;
             Console.WriteLine("\nCalculation of a square area!");
             Console.WriteLine("");
-            Console.WriteLine("Enter the measurements of one of the square sides: ");
+            Console.WriteLine("Enter the measurements of the square sides: ");
             side1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the measurements of the other square side: ");
-            side2 = double.Parse(Console.ReadLine());
-            area = Square(side1, side2);
+            area = Square(side1);
             Console.WriteLine($"The area of your sqare is {area}");
             Console.ReadLine();
 
@@ -35,9 +32,9 @@ namespace Module4_2
             //
             //Console.ReadLine();
         }
-        static double Square(double side1, double side2)
+        static double Square(double side1)
         {
-            return side1 * side2;
+            return side1 * side1;
             //
             //Console.ReadLine();
         }

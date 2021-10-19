@@ -15,6 +15,9 @@ namespace Module4_2
             //double fromFunction = Circle(rad);
             Console.WriteLine($"The Area of your Circle is {Circle(rad)}");
             Console.WriteLine("------------------------------------------------------");
+            
+            
+            
             double side1;
             double area;
             Console.WriteLine("\nCalculation of a square area!");
